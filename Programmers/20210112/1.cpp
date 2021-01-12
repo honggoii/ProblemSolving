@@ -8,10 +8,7 @@ priority_queue<int, vector<int>, greater<int>> pq;
 int solution(vector<int> scoville, int K) {
     int answer = 0;
     int sz = scoville.size();
-    if (sz == 1 && K >= 2)
-        answer = -1;
-    else {
-        for (int i = 0; i < sz; i++)
+    for (int i = 0; i < sz; i++)
             pq.push(scoville[i]);//우선순위 큐에 넣는다.
 
         while (1) {
@@ -31,6 +28,5 @@ int solution(vector<int> scoville, int K) {
             if (pq.top() >= K)
                 break;
         }
-    }
     return answer;
 }
