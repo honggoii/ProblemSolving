@@ -25,8 +25,6 @@ int main() {
 	}
 	sort(v.begin(), v.end(), cmp);
 
-	int temp = 0;
-	int cnt = 0;
 	for (int i = 0; i < v.size(); i++) {
 		if (day[v[i].first] == 0) {
 			day[v[i].first] = v[i].second;
