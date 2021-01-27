@@ -15,7 +15,6 @@ bool cmp(pair<int, int> a, pair<int, int> b) {
 }
 
 int main() {
-	freopen("sample.txt", "r", stdin);
 	int n;
 	scanf("%d", &n);
 	for (int i = 0; i < n; i++) {
