@@ -96,8 +96,6 @@ int main() {
 		//불이 있는경우만 계산
 		bfsFire();//불 퍼트리기
 	}
-	while (!q.empty())
-		q.pop();
 	if (jihun.x == 1 || jihun.x == r || jihun.y == 1 || jihun.y == c) {
 		ans = 1;
 	}
