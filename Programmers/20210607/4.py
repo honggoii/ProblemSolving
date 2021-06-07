@@ -47,4 +47,5 @@ def solution(new_id):
     elif len(new_id) >= 16:
         new_id = six(new_id) # 6. 길이가 16자 이상, 15개 문자외 제거, 마침표가 맨 끝이면 제거      
     answer = new_id
+    
     return answer
