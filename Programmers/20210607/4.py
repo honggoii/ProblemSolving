@@ -1,10 +1,8 @@
 def two(new_id):
     tmp = ''
-    alpha = 'abcdefghijklmnopqrstuvwxyz'
-    digit = '0123456789'
     characters = '-_.'
     for i in new_id:
-        if i in alpha or i in digit or i in characters:
+        if i.isalpha() or i.isdigit() or i in characters:
             tmp += i
     return tmp
 
