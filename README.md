@@ -5,4 +5,5 @@ Practice problem solving
 
 I promised myself to solve one problem every day.
 
-It took a long time.
+### It took a long time.
+- [17779번: 게리멘더링 2](ProblemSolving/BOJ/20210617/)
