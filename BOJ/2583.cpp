@@ -68,5 +68,6 @@ int main() {
 	printf("%d\n", ans);
 	for (int i = 0; i < area.size(); i++)
 		printf("%d ", area[i]);
+	
 	return 0;
 }
