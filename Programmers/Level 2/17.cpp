@@ -56,6 +56,5 @@ int solution(string numbers) {
     for (int i = 1; i <= sz; i++) {
         permutation(0, i);//순열
     }
-
     return answer;
 }
