@@ -49,5 +49,6 @@ int main() {
 	}
 	comb(0);//(1,1)부터 심어나가기
 	printf("%d", ans);
+	
 	return 0;
 }
