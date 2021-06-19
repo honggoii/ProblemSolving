@@ -38,7 +38,6 @@ int solution(vector<vector<int>> board)
             }
         }
     }
-    
 
     answer *= answer;
     return answer;
