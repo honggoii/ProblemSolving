@@ -58,5 +58,6 @@ int main() {
 		}
 	}
 	printf("%d\n%d", cnt, area);
+	
 	return 0;
 }
