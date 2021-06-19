@@ -33,5 +33,6 @@ vector<int> solution(int brown, int yellow) {
             j += 2;
         }
     }
+    
     return answer;
 }
