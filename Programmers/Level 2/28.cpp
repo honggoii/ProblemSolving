@@ -19,5 +19,6 @@ int solution(int n) {
         }
     }
     answer++;//자기 자신
+    
     return answer;
 }
