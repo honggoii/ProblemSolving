@@ -32,7 +32,6 @@ int main() {
 		if (i >= j)
 			break;
 	}
-	printf("%d", ans);
-	
+	printf("%d", ans);	
 	return 0;
 }
