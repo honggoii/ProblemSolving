@@ -37,5 +37,6 @@ int main() {
 		}
 	}
 	printf("%d", cost[des]);
+	
 	return 0;
 }
