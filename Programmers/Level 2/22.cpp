@@ -27,5 +27,6 @@ int solution(vector<int> people, int limit) {
     if (i == j) 
         solo.push_back(people[i]);
     answer += solo.size();
+    
     return answer;
 }
