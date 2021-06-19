@@ -21,4 +21,5 @@ def solution(record):
         elif o == 2:
             answer[i] = '{}님이 나갔습니다.'.format(user[answer[i]])
         i += 1
+        
     return answer
