@@ -61,5 +61,6 @@ int main() {
 	cin.tie(0);
 	init();//초기화
 	cout << bfs();
+	
 	return 0;
 }
