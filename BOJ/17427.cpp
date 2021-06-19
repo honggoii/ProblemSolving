@@ -7,5 +7,6 @@ int main() {
 		ans += i * (n / i);
 	}
 	printf("%d", ans);
+	
 	return 0;
 }
