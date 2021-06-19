@@ -24,5 +24,6 @@ int main() {
 			ans = dp[i];
 	}
 	printf("%d", ans);
+	
 	return 0;
 }
