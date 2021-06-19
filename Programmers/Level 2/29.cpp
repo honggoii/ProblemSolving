@@ -9,5 +9,6 @@ int solution(int n) {
     int num = bitset<20>(n).count();
     while (num != bitset<20>(++n).count());
     answer = n;
+    
     return answer;
 }
