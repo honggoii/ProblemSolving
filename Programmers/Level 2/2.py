@@ -14,5 +14,4 @@ def solution(s):
         answer = 1
     else:
         answer = 0
-
     return answer
