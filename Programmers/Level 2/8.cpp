@@ -29,6 +29,5 @@ string solution(vector<int> numbers) {
             answer += to_string(numbers[temp[i].first]);
         }
     }           
-
     return answer;
 }
