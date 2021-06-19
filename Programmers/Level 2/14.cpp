@@ -21,5 +21,6 @@ vector<int> solution(vector<int> prices) {
         answer[dq.front().second] = prices.size() - 1 - dq.front().second;
         dq.pop_front();
     }
+    
     return answer;
 }
