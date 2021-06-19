@@ -17,5 +17,6 @@ vector<vector<int>> solution(vector<vector<int>> arr1, vector<vector<int>> arr2)
             answer[i].push_back(num);
         }
     }
+    
     return answer;
 }
