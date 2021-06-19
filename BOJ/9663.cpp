@@ -30,5 +30,6 @@ int main() {
 	scanf("%d", &n);
 	nqueen(0);
 	printf("%d", ans);
+	
 	return 0;
 }
