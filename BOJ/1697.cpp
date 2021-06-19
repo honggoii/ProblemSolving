@@ -36,5 +36,6 @@ int main() {
 	scanf("%d%d", &n, &k);
 	bfs(n);
 	printf("%d", visit[k]-1);
+	
 	return 0;
 }
