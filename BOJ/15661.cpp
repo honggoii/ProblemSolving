@@ -48,5 +48,6 @@ int main() {
 		permu(1, i, 0);
 	}
 	printf("%d", ans);
+	
 	return 0;
 }
