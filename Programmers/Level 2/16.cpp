@@ -28,5 +28,6 @@ int solution(vector<int> scoville, int K) {
             if (pq.top() >= K)
                 break;
         }
+    
     return answer;
 }
