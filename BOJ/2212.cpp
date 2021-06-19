@@ -35,5 +35,6 @@ int main() {
 		ans += v[i];
 	}
 	printf("%d", ans);
+	
 	return 0;
 }
