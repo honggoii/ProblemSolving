@@ -24,5 +24,6 @@ string solution(string s) {
         }
         answer += s[i];
     }
+    
     return answer;
 }
