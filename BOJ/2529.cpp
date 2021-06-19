@@ -59,5 +59,6 @@ int main() {
 	permutation(0);
 	cout << large << "\n";
 	cout << small << "\n";
+	
 	return 0;
 }
