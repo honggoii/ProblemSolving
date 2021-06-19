@@ -57,5 +57,6 @@ int main() {
 	inputmap();
 	dikstra();
 	printf("%d", ans[n][m]);
+	
 	return 0;
 }
