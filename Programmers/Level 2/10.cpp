@@ -20,6 +20,5 @@ string solution(int n) {
     }
 
     reverse(answer.begin(), answer.end());
-
     return answer;
 }
