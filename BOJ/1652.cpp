@@ -47,5 +47,6 @@ int main() {
 	}
 
 	printf("%d %d", row, col);
+	
 	return 0;
 }
