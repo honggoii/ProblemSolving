@@ -57,6 +57,5 @@ int solution(string name) {
             idx = j;
         }
     }
-
     return answer;
 }
