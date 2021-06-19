@@ -55,5 +55,6 @@ int main() {
 	}
 	bfs();
 	printf("%d", ans);
+	
 	return 0;
 }
