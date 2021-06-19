@@ -25,5 +25,6 @@ int main() {
 	sort(ans.begin(), ans.end(), cmp);
 	for (int i = 0; i < n; i++)
 		cout << ans[i] << '\n';
+	
 	return 0;
 }
