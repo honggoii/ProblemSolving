@@ -27,5 +27,6 @@ string solution(string number, int k) {
     }
     reverse(answer.begin(), answer.end());
     answer = answer.substr(0, cnt);
+    
     return answer;
 }
