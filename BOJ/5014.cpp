@@ -33,5 +33,6 @@ void bfs(int s) {
 int main() {
 	scanf("%d%d%d%d%d", &f, &s, &g, &u, &d);
 	bfs(s);
+	
 	return 0;
 }
