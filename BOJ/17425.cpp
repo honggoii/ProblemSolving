@@ -15,6 +15,5 @@ int main() {
 		scanf("%d", &n);
 		printf("%lld\n", dp[n]);
 	}
-	
 	return 0;
 }
