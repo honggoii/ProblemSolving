@@ -107,6 +107,5 @@ int main() {
 		printf("%d", ans);
 	else
 		printf("IMPOSSIBLE");
-
 	return 0;
 }
