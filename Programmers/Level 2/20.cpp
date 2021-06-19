@@ -24,6 +24,5 @@ bool solution(string s)
 
     if (!st.empty())
         answer = false;
-
     return answer;
 }
