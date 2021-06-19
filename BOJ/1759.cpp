@@ -37,5 +37,6 @@ int main() {
 	}
 	sort(arr, arr + c);
 	comb(0, 0);
+	
 	return 0;
 }
