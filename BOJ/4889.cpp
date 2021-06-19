@@ -38,5 +38,6 @@ int main() {
 		printf("%d. %d\n", idx, ans);
 		idx++;
 	}
+	
 	return 0;
 }
