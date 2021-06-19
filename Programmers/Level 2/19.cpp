@@ -11,5 +11,6 @@ int solution(int n) {
         fibo[i] = (fibo[i-1] + fibo[i-2]) % 1234567;
     }
     answer = fibo[n];
+    
     return answer;
 }
