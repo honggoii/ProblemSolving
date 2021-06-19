@@ -46,5 +46,6 @@ int main() {
 		printf("%d", ans);
 	else
 		printf("-1");
+	
 	return 0;
 }
