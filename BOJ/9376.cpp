@@ -113,5 +113,6 @@ int main() {
 		sum();//정답 구하기
 		printf("%d\n", ans);
 	}
+	
 	return 0;
 }
