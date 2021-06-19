@@ -52,6 +52,5 @@ int main() {
 	else {
 		printf("0");
 	}
-	
 	return 0;
 }
