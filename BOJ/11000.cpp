@@ -35,5 +35,6 @@ int main() {
 		}
 	}
 	printf("%d", pq.size());//강의실 갯수
+	
 	return 0;
 }
