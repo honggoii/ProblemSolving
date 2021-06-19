@@ -47,5 +47,6 @@ int main() {
 		comb(0, 0);
 	}
 	printf("%d", ans);
+	
 	return 0;
 }
