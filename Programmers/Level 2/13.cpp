@@ -24,5 +24,6 @@ vector<int> solution(vector<int> progresses, vector<int> speeds) {
             progresses[i] += speeds[i];
         }
     }
+    
     return answer;
 }
