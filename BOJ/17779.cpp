@@ -113,5 +113,6 @@ int main() {
 	input();// 맵 입력
 	calc();// 완탐으로 인구 차이 구하기
 	printf("%d", ans);
+	
 	return 0;
 }
