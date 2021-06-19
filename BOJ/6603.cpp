@@ -31,5 +31,6 @@ int main() {
 		comb(0, 0);
 		printf("\n");
 	}
+	
 	return 0;
 }
