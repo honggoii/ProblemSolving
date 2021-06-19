@@ -26,5 +26,6 @@ int main() {
 		if (v[i-1] != v[i])
 			cout << v[i] << "\n";
 	}
+	
 	return 0;
 }
