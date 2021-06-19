@@ -14,5 +14,6 @@ long long solution(int w, int h) {
             w -= side;
         }
     }
+    
     return answer;
 }
