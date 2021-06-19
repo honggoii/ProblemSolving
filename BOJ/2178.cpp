@@ -41,5 +41,6 @@ int main() {
 	}
 	bfs({ 1,1 });
 	printf("%d", visit[n][m]);
+	
 	return 0;
 }
