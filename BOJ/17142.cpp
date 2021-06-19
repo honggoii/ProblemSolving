@@ -128,6 +128,7 @@ void init() {
 int main() {
 	// 0: 빈칸 1: 벽 2: 바이러스
 	scanf("%d%d", &n, &m);
+	
 	init();// 맵 입력
 	if (nosearch) {
 		printf("0"); // 처음부터 맵에 바이러스가 다 퍼져있는경우
