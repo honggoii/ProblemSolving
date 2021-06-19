@@ -34,5 +34,6 @@ int solution(string skill, vector<string> skill_trees) {
         if (!flag)
             answer++;
     }
+    
     return answer;
 }
