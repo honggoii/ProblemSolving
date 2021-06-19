@@ -16,6 +16,5 @@ int solution(vector<vector<int>> land)
     }
 
     answer = max(land[n - 1][0], max(land[n - 1][1], max(dp[n - 1][2], land[n - 1][3])));
-
     return answer;
 }
