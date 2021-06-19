@@ -26,5 +26,6 @@ int main() {
 	}
 	dfs(1);
 	printf("%d", ans);
+	
 	return 0;
 }
