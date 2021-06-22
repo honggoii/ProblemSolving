@@ -24,5 +24,4 @@ def solution(begin, target, words):
             if diff == 1: # 다른게 하나 일때만
                 visited[i] = True
                 q.append((words[i], cnt + 1))
-        
     return cnt
