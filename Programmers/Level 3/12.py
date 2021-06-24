@@ -15,7 +15,8 @@ def union_parent(parent, a, b):
 
 def solution(n, costs):
     answer = 0
-    edges = []
+    
+    edges = []    
     # 부모를 자기 자신으로 초기화
     for i in range(n):
         parent[i] = i
