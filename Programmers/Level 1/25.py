@@ -1,6 +1,5 @@
 def solution(answers):
     answer = []
-    
     one = [1, 2, 3, 4, 5]
     two = [2, 1, 2, 3, 2, 4, 2, 5]
     three = [3, 3, 1, 1, 2, 2, 4, 4, 5, 5]
@@ -8,6 +7,7 @@ def solution(answers):
     s1 = 0 # 수포자1
     s2 = 0 # 수포자2
     s3 = 0 # 수포자3
+    
     for i in range(len(answers)):
         if one[i%5] == answers[i]:
             s1 += 1
