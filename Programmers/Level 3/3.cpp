@@ -6,7 +6,6 @@
 using namespace std;
 priority_queue<int> pq;
 
-
 vector<int> solution(vector<string> operations) {
     vector<int> answer;
     vector<int> v;
