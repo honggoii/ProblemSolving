@@ -16,6 +16,7 @@ priority_queue<pair<int, int>, vector<pair<int,int>>, compare> pq;
 bool cmp(const vector<int>& a, const vector<int>& b) {
     return a < b;
 }
+
 int solution(vector<vector<int>> jobs) {
     int answer = 0;
     sort(jobs.begin(), jobs.end(), cmp);//요청시간 오름차순정렬
