@@ -5,7 +5,6 @@ def solution(numbers, target):
     answer = list(map(sum, product(*number)))
     return answer.count(target)
 
-
 '''
 조합 직접 구현
 '''
