@@ -12,9 +12,9 @@ def solution(genres, plays):
             music[genres[i]].append(i)
     genre = sorted(genre.items(), key=(lambda x: x[1]), reverse=True) # 많이 재생된 장르 순
 
-    for key in genre:
+    for key in genre: # 장르 하나를 뽑고
         cnt = 0
-        tmp = []
+        tmp = [] # 
         for i in music[key[0]]:
             tmp.append((plays[i], i)) # 재생시간, 인덱스
         tmp.sort(key=lambda x:(-x[0], x[1])) # 재생시간 내림차순, 인덱스 오름차순
