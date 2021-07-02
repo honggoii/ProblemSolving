@@ -1,13 +1,14 @@
 def solution(phone_book):
-    answer = True
-    hashmap = {}
+    phone_book.sort() # 오름차순 정렬
     
-    for phone in phone_book:
-        hashmap[phone] = 1 # 접두사가 될 수 있는 후보
-    for phone in phone_book:
-        tmp = ''
-        for number in phone:
-            tmp += number
-            if tmp in phone_book and tmp != phone:
-                return False
-    return answer
+    phone = {} # {번호:1}
+    for p in phone_book:
+        phone[p] = 1
+    
+    for i in range(len(phone_book)-1):
+        sz = len(phone_book[i]) #번호 길이
+        tmp = phone_book[i+1][:sz]
+        if tmp == phone_book[i]:
+            return False
+            
+    return True
