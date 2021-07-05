@@ -17,9 +17,12 @@ def solution(orders, course):
             else:
                 pick_order[tmp_order] = 1
         
+        pick_order = sorted(pick_order.items(), key=lambda x:x[1], reverse = True) # 내림차순 정렬
+        tmp_max = 0
+        
         for result in pick_order: # 만든 조합이 몇개 뽑혔는지
-            if pick_order[result] == max([pick_order[x] for x in pick_order]):
-                if pick_order[result] > 1:
-                    answer.append(result)
-                    
+            if result[1] <= 1: continue# 1번 이상 뽑히지 않으면 탈락
+            if tmp_max <= result[1]:
+                tmp_max = result[1]
+                answer.append(result[0])
     return sorted(answer)
