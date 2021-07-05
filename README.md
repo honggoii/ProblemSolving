@@ -6,4 +6,4 @@ Practice problem solving
 I promised myself to solve one problem every day.
 
 ### It took a long time.
-- [17779번: 게리멘더링 2](./BOJ/20210617/17779.cpp)
+- [17779번: 게리멘더링 2](./BOJ/17779.cpp)
