@@ -35,7 +35,7 @@
 - [더 맵게](./Programmers/Level-2/16.py)
 - [디스크 컨트롤러](./Programmers/Level-3/2.py)
 - [이중우선순위큐](./Programmers/Level-3/3.py)
-- [다리를 지나는 트럭](./Programmers/Level 2/9.py)
+- [다리를 지나는 트럭](./Programmers/Level-2/9.py)
 - [전화번호 목록](./Programmers/Level-2/30.py)
 - [위장](./Programmers/Level-2/7.py)
 - [베스트 앨범](./Programmers/Level-3/1.py)
