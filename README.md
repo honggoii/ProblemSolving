@@ -9,4 +9,4 @@ Practice problem solving
 - [17779번: 게리멘더링 2](./BOJ/17779.cpp)
 
 ### Programmers
-- [후보키](./Programmers/Level2/46.py)
+- [후보키](./Programmers/Level-2/46.py)
