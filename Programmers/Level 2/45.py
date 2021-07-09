@@ -5,8 +5,7 @@ def correct(s, i, length):
     for i in range(i, i + length):
         if s[i] == '[' or s[i] == '(' or s[i] == '{':
             stack.append(s[i])
-            flag = True
-            
+            flag = True  
         if len(stack) != 0:
             if s[i] == ']' and stack[-1] == '[':
                 stack.pop()
