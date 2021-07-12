@@ -46,7 +46,6 @@ def start_game(x, y, char, visited, m, n):
                     #visited[x + 1][y + 1] = True
 
     if 4 <= len(coord):  # 지워져야 할 블록
-        #coord.pop()
         remove_block(game, coord)
         change_board(game, m, n)  # 아래로 당겨주기
         return len(set(coord))
